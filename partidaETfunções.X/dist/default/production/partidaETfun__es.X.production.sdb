@@ -1,0 +1,115 @@
+[p LITE_MODE AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 6 ]
+"11 C:\Users\20185561\MPLABXProjects\partidaETfunções.X\botoes.c
+[v _botoes_init botoes_init `(v  1 e 1 0 ]
+"17
+[v _S1 S1 `(i  1 e 2 0 ]
+"22
+[v _S0 S0 `(i  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"12 C:\Users\20185561\MPLABXProjects\partidaETfunções.X\contatores.c
+[v _contatores_init contatores_init `(v  1 e 1 0 ]
+"22
+[v _K1 K1 `(v  1 e 1 0 ]
+"27
+[v _K2 K2 `(v  1 e 1 0 ]
+"32
+[v _K3 K3 `(v  1 e 1 0 ]
+"37
+[v _K1status K1status `(i  1 e 2 0 ]
+"12 C:\Users\20185561\MPLABXProjects\partidaETfunções.X\delay.c
+[v _delay delay `(v  1 e 1 0 ]
+"14 C:\Users\20185561\MPLABXProjects\partidaETfunções.X\main.c
+[v _main main `(v  1 e 1 0 ]
+[s S90 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"369 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f887.h
+[u S99 . 1 `S90 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES99  1 e 1 @8 ]
+[s S69 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"1619
+[u S78 . 1 `S69 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES78  1 e 1 @136 ]
+"14 C:\Users\20185561\MPLABXProjects\partidaETfunções.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"16
+[v main@estado estado `i  1 a 2 6 ]
+"17
+[v main@t t `i  1 a 2 4 ]
+"70
+} 0
+"12 C:\Users\20185561\MPLABXProjects\partidaETfunções.X\delay.c
+[v _delay delay `(v  1 e 1 0 ]
+{
+[v delay@t t `i  1 p 2 0 ]
+"19
+} 0
+"12 C:\Users\20185561\MPLABXProjects\partidaETfunções.X\contatores.c
+[v _contatores_init contatores_init `(v  1 e 1 0 ]
+{
+"20
+} 0
+"11 C:\Users\20185561\MPLABXProjects\partidaETfunções.X\botoes.c
+[v _botoes_init botoes_init `(v  1 e 1 0 ]
+{
+"15
+} 0
+"17
+[v _S1 S1 `(i  1 e 2 0 ]
+{
+"20
+} 0
+"22
+[v _S0 S0 `(i  1 e 2 0 ]
+{
+"25
+} 0
+"32 C:\Users\20185561\MPLABXProjects\partidaETfunções.X\contatores.c
+[v _K3 K3 `(v  1 e 1 0 ]
+{
+[v K3@estado estado `i  1 p 2 0 ]
+"35
+} 0
+"27
+[v _K2 K2 `(v  1 e 1 0 ]
+{
+[v K2@estado estado `i  1 p 2 0 ]
+"30
+} 0
+"37
+[v _K1status K1status `(i  1 e 2 0 ]
+{
+"40
+} 0
+"22
+[v _K1 K1 `(v  1 e 1 0 ]
+{
+[v K1@estado estado `i  1 p 2 0 ]
+"25
+} 0
